@@ -15,8 +15,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../assets/fonts/helvetica-neue.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
 :root {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'HelveticaNeue', sans-serif;
 
     --max-width: 300px;
     --border-radius: 3px;
@@ -56,10 +63,6 @@
     --callout-border-rgb: 172, 175, 176;
     --card-rgb: 180, 185, 188;
     --card-border-rgb: 131, 134, 135;
-}
-
-p {
-    font-family: 'Gloock', serif;
 }
 
 @media (prefers-color-scheme: dark) {

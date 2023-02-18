@@ -38,3 +38,7 @@
     display: grid;
     grid-gap: 5px;
 }
+
+.content {
+    font-family: 'Gloock', serif;
+}
