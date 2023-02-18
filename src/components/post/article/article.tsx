@@ -24,9 +24,11 @@ export default function Article() {
                         <i className="fa-solid fa-link" />
                     </div>
                 </div>
-                <div className={styles.header}>
-                    <h1 className={styles.title}>Title</h1>
-                    <h2 className={styles.subtitle}>Subtitle</h2>
+                <div className={styles.content}>
+                    <div className={styles.header}>
+                        <h1 className={styles.title}>Title</h1>
+                        <h2 className={styles.subtitle}>Subtitle</h2>
+                    </div>
                     <p className={styles.content}>Content</p>
                 </div>
             </main>

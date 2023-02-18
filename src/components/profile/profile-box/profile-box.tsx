@@ -9,6 +9,9 @@ export default function ProfileBox() {
                 <p>0 followers</p>
             </div>
             <p>No disponible. Me gusta el mundo de las IAs y tal.</p>
+            <div>
+                <button className={"main"}>Follow</button>
+            </div>
         </div>
     )
 }

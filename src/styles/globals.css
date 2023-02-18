@@ -5,7 +5,9 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-    --foreground-rgb: 0, 0, 0;
+    --theme-color-black: #050505;
+    --theme-color-white: #efefef;
+
     --background-light-black: #2d2d2d;
     --background-end-rgb: 255, 255, 255;
 
@@ -65,4 +67,13 @@
 .profile-avatar {
     border-radius: 50%;
     height: 90px;
+}
+
+button.main {
+    border: none;
+    color: var(--theme-color-black);
+    background: var(--theme-color-white);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
 }
