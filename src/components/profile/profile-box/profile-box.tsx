@@ -4,7 +4,7 @@ export default function ProfileBox() {
     return (
         <div className={styles.box}>
             <div>
-                <img className={"profile-avatar"} src="https://miro.medium.com/freeze/fit/c/176/176/1*pvaJlwES-gx2itutOSb12w.gif"/>
+                <img className={"profile-avatar"} src="https://miro.medium.com/freeze/fit/c/176/176/1*pvaJlwES-gx2itutOSb12w.gif" height={80} />
                 <h1>Ailakks</h1>
                 <p>0 followers</p>
             </div>

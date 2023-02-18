@@ -1,9 +1,18 @@
+@font-face {
+    font-family: 'PanoBold';
+    src: local('PanoBold'), url('storage/font/pano_bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'RocGrotesk';
+    src: local('RocGrotesk'), url('storage/font/roc-grotesk-400.woff') format('woff');
+}
+
 :root {
+    font-family: 'RocGrotesk', sans-serif;
+
     --max-width: 300px;
     --border-radius: 3px;
-    --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
     --theme-color-black: #050505;
     --theme-color-white: #efefef;
