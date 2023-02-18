@@ -1,6 +1,8 @@
 .main {
     display: grid;
     grid-gap: 50px;
+
+    height: min-content;
 }
 
 .author {
@@ -27,12 +29,12 @@
     grid-gap: 10px;
 }
 
-.content {
+.wrapper {
     display: grid;
     grid-gap: 20px;
 }
 
-.content > .header {
+.wrapper > .header {
     display: grid;
     grid-gap: 5px;
 }

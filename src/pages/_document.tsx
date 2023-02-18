@@ -1,5 +1,5 @@
 import {Html, Head, Main, NextScript} from 'next/document'
-import Header from "@/components/ui/header/header";
+import Home from "@/pages/index";
 
 export default function Document() {
     return (
@@ -7,8 +7,8 @@ export default function Document() {
             <Head>
                 <link rel="stylesheet" href={"https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css"}/>
             </Head>
+            <Home/>
             <body>
-            <Header/>
             <Main/>
             <NextScript/>
             </body>
