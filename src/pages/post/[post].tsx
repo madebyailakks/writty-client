@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/profile.module.css'
 
 export default function Post() {
     return (
@@ -12,8 +12,17 @@ export default function Post() {
             </Head>
             <main className={styles.main}>
                 <div className={styles.author}>
-                    <p>Author</p>
-                    <p>Date</p>
+                    <div className={styles.info}>
+                        <img src="https://miro.medium.com/freeze/fit/c/176/176/1*pvaJlwES-gx2itutOSb12w.gif"/>
+                        <div>
+                            <p>Author</p>
+                            <p>Date</p>
+                        </div>
+                    </div>
+                    <div>
+                        <i className="fa-brands fa-twitter" />
+                        <i className="fa-solid fa-link" />
+                    </div>
                 </div>
                 <div className={styles.header}>
                     <h1 className={styles.title}>Title</h1>
