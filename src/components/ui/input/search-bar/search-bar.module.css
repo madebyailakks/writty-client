@@ -1,0 +1,22 @@
+.wrapper {
+    background: var(--background-light-black);
+    max-width: 300px;
+    padding: 0 15px;
+    border-radius: 20px;
+    min-height: 40px;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.wrapper > input {
+    border: none;
+    background: none;
+    height: 100%;
+}
+
+.wrapper > input:focus {
+    outline: none;
+}
