@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
 @font-face {
     font-family: 'PanoBold';
-    src: local('PanoBold'), url('storage/font/pano_bold.woff') format('woff');
+    src: url('../assets/fonts/pano_bold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'RocGrotesk';
-    src: local('RocGrotesk'), url('storage/font/roc-grotesk-400.woff') format('woff');
+    src: url('../assets/fonts/roc-grotesk-400.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 
 :root {
-    font-family: 'RocGrotesk', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
     --max-width: 300px;
     --border-radius: 3px;
@@ -49,6 +56,10 @@
     --callout-border-rgb: 172, 175, 176;
     --card-rgb: 180, 185, 188;
     --card-border-rgb: 131, 134, 135;
+}
+
+p {
+    font-family: 'Gloock', serif;
 }
 
 @media (prefers-color-scheme: dark) {
