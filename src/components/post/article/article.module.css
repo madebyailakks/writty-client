@@ -1,9 +1,6 @@
 .main {
     display: grid;
-    grid-gap: 60px;
-
-    max-width: 1200px;
-    margin: 0 auto;
+    grid-gap: 50px;
 }
 
 .author {
@@ -22,4 +19,10 @@
 .author > .info > img {
     height: 50px;
     border-radius: 50%;
+}
+
+.share {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
 }

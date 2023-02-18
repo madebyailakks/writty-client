@@ -1,12 +1,12 @@
 :root {
     --max-width: 300px;
-    --border-radius: 12px;
+    --border-radius: 3px;
     --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
     --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
+    --background-light-black: #2d2d2d;
     --background-end-rgb: 255, 255, 255;
 
     --primary-glow: conic-gradient(
@@ -60,4 +60,9 @@
     i {
         color: white;
     }
+}
+
+.profile-avatar {
+    border-radius: 50%;
+    height: 90px;
 }

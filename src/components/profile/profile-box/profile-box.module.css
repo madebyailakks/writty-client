@@ -1,0 +1,10 @@
+.box {
+    background: var(--background-light-black);
+    border-radius: var(--border-radius);
+    padding: 15px;
+}
+
+.box {
+    display: grid;
+    grid-gap: 10px;
+}
