@@ -1,12 +1,15 @@
-.wrapper {
+.banner {
     display: grid;
     grid-gap: 10px;
-
-    grid-template-columns: 1fr 400px;
+    height: min-content;
+    padding: 20px 0;
 }
 
 .author {
     display: grid;
     grid-auto-flow: column;
     grid-gap: 10px;
+    align-items: center;
+    width: min-content;
+    white-space: nowrap;
 }
